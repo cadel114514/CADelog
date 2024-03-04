@@ -12,14 +12,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      {
-        text: '博客',
-        link: '/blogs/',
-      },
+      { text: '博客', link: '/blogs/' },
+      { text: '其他', items: [{ text: '关于', link: '/others/about' }] },
     ],
 
     sidebar: {
       '/blogs/': set_sidebar('docs/blogs/'),
+      '/others/': set_sidebar('docs/others/'),
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/cadel114514' }],
