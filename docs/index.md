@@ -24,3 +24,15 @@ features:
     link: /others/about
 ---
 
+<style>
+  .btn {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 0.6em 1.2em;
+    background-color:  transparent;
+    margin: 16px 0 16px 0;
+  }
+  .btn:hover {
+    border-color: #646cff;
+  }
+</style>
